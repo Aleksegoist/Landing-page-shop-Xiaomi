@@ -1,3 +1,5 @@
 $(function () {
 
+    $('.bike-slider').slick();
+
 })
