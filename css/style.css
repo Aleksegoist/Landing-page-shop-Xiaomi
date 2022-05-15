@@ -61,4 +61,63 @@ body {
 .menu__link:hover {
     background-color: #131313;
     color: #fff;    
+    border-radius: 5px;
+}
+.bike {
+    padding: 100px 0 150px;
+}
+
+.bike__inner {
+    display: flex;
+    justify-content: space-between;
+}
+
+.bike__column {
+    display: flex;
+    flex-direction: column;
+}
+
+.bike__column-slider {
+    flex-basis: 630px;
+    margin-left: 30px;
+}
+
+.bike__title {
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 77px;
+    margin: 60px 0 5px;
+}
+
+.bike__subtitle {
+    margin: 0 60px 60px 0;
+    font-size: 32px;
+    line-height: 39px;
+    color: #6F6F6F;
+    font-weight: 400;
+}
+
+.bike__text {
+    max-width: 420px;
+    line-height: 16.8px;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+
+.bike__link {
+    margin-top: 80px;
+    max-width: 420px;
+    display: inline-block;
+    height: 80px;
+    background: #131313;
+    color: #FFFFFF;
+    padding: 28px 81px;
+    font-size: 20px;
+    letter-spacing: 1.1em;
+    text-transform: uppercase;
+    line-height: 24px;
+    display: flex;
+    justify-content: center;
+    border-radius: 5px;
+  
 }
