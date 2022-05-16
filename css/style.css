@@ -120,5 +120,36 @@ body {
     display: flex;
     justify-content: center;
     border-radius: 5px;
-  
 }
+
+.bike-slider .slick-dots {
+right: 0;
+top: 50px;
+}
+
+.slick-dots {
+    position: absolute;
+    top: 0;
+}
+
+.slick-dots li + li {
+    padding-top: 10px;
+}
+
+.slick-dots button {
+    font-size: 0;
+    padding: 0;
+    border: none;
+    background-color: #131313;
+    width: 2px;
+    height: 25px;
+    border-radius: 7px;
+    cursor: pointer;
+    transition: all .3s;
+}
+
+.slick-active button, 
+.slick-dots button:hover {
+    background-color: #ff4040;
+}
+
