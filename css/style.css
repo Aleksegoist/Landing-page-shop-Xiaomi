@@ -4,6 +4,10 @@
     box-sizing: border-box; 
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 ul {
     padding: 0;
     margin: 0;
@@ -69,7 +73,7 @@ body {
     border-radius: 5px;
 }
 .bike {
-    padding: 100px 0 150px;
+    padding: 100px 0 0;
 }
 
 .bike__inner {
@@ -126,8 +130,6 @@ body {
     align-items: center;
     border-radius: 5px;
 }
-
-
 
 .bike-slider .slick-dots {
 right: 0;
@@ -193,7 +195,8 @@ top: 50px;
 }
 
 .info {
-    margin-bottom: 150px;
+    margin-top: 150px;
+    margin-bottom: 50px;
 }
 
 .info__inner {
@@ -229,6 +232,7 @@ top: 50px;
 }
 
 .characteristics {
+    padding-top: 100px;
     margin-bottom: 150px;
 }
 
@@ -418,6 +422,7 @@ top: 50px;
 .form__btn:hover, 
 .bike__link:hover {
     background: #ff4040;
+    transition: all .3s;
 }
 
 .form__radio-style {
