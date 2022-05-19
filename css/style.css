@@ -486,6 +486,21 @@ body {
     margin-top: 10px;
 }
 
+@media (max-width: 1110px) {
+    .bike__inner {
+        flex-wrap: wrap;
+    }
+    .bike__text {
+        max-width: 100%;
+    }
+    .bike {
+        padding: 0;
+    }
+    .bike__link {
+        margin-top: 30px;
+    }
+}
+
 @media (max-width: 990px) {
     .menu {
         margin-right: 0;
