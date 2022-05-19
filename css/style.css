@@ -442,3 +442,47 @@ top: 50px;
 .footer__inner {
     background-color: #131313;
 }
+
+.footer {
+    background-color: #131313;
+}
+
+.footer__inner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 100px;
+}
+
+.footer__link {
+    color: #fff;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 15px;
+    text-decoration: underline;
+}
+
+.footer__social-link + .footer__social-link {
+    margin-left: 20px;
+}
+
+.footer__contacts {
+    color: #fff;
+    font-size: 12px;
+    line-height: 15px;
+}
+
+.footer__contacts-link {
+    display: flex;
+    align-items: center;
+
+}
+
+.footer__contacts-img {
+    margin-right: 10px;
+}
+
+.footer__contacts-link + .footer__contacts-link {
+    margin-top: 10px;
+}
+
