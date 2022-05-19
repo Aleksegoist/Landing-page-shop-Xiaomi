@@ -220,3 +220,37 @@ top: 50px;
     font-weight: 400;
     font-size: 14px;
 }
+
+.characterisrics__title-main {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    text-transform: uppercase;
+    margin: 0;
+}
+
+.characteristics__inner {
+    display: flex;
+}
+
+.characteristics__items {
+    flex-basis: 570px;
+    margin: 40px 60px 150px 0;
+  }
+
+.characteristics__list {
+    padding: 0;
+}
+
+.characteristics__title {
+    font-size: 14px;
+    line-height: 17px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    background-color: #131313;  
+}
+
+.characteristics_line {
+    display: flex;
+}
