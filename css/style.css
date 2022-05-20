@@ -521,6 +521,12 @@ body {
     .menu {
         margin-right: 0;
     }
+    .characteristics__inner {
+        flex-wrap: wrap;
+    }
+    .characteristics__img {
+        order: -1;
+    }
 }
 
 @media (max-width: 670px) {
