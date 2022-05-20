@@ -164,9 +164,6 @@ body {
     display: flex;
     justify-content: space-around;
     margin-top: 25px;
-    margin-right: 425px;
-    width: 500px;
-    height: 53px;
 }
 
 .bike__list-item {
@@ -559,6 +556,16 @@ body {
     }
     .menu__link {
         padding: 25px 0;
+    }
+    .bike__link {
+        letter-spacing: 0.7em;
+        height: 62px;
+    }
+    .bike__title {
+        font-size: 32px;
+    }
+    .bike__subtitle {
+        font-size: 18px;
     }
 }
 
