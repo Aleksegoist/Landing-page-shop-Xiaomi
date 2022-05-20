@@ -220,7 +220,7 @@ body {
 }
 
 .info__item-text {
-    max-width: 450px;
+    flex-basis: 450px;
     font-weight: 400;
     font-size: 14px;
 }
@@ -502,6 +502,18 @@ body {
     .bike__column-slider {
         max-width: 100%;
         margin-left: 0;
+    }
+    .info__img {
+        display: none;
+    }
+    .info__list {
+        flex-basis: 100%;
+    }
+    .info__item-text {
+        flex-basis: 100%;
+    }
+    .info__item + .info__item {
+        padding-top: 25px;
     }
 }
 
