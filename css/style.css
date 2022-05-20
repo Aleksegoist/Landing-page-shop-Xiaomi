@@ -702,6 +702,7 @@ body {
         letter-spacing: 0.7em;
         height: 62px;
         width: 280px;
+        margin: auto;
     }
     .bike__title {
         font-size: 32px;
@@ -744,6 +745,12 @@ body {
         top: 20px;
     }
     .footer__contacts-link span {
+        position: inherit;
+    }
+    .bike__list-text {
+        position: inherit;
+    }
+    .bike__list-num {
         position: inherit;
     }
 }
